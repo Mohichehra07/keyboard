@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Keyboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="parent">
+      <h1>KEYBOARD</h1>
+      <input type="text" id="natija">
+      <div>
+        <button onclick="btns()">Esc</button>
+        <button onclick="btns()">F1</button>
+        <button onclick="btns()">F2</button>
+        <button onclick="btns()">F3</button>
+        <button onclick="btns()">F4</button>
+        <button onclick="btns()">F5</button>
+        <button onclick="btns()">F6</button>
+        <button onclick="btns()">F7</button>
+        <button onclick="btns()">F8</button>
+        <button onclick="btns()">F9</button>
+        <button onclick="btns()">F10</button>
+        <button onclick="btns()">F11</button>
+        <button onclick="btns()">F12</button>
+        <button onclick="btns()">Insect</button>
+        <button class="print">printScr</button>
+        <button id="c-btn" onclick="clearResult()" >Delete</button>
+      </div>
+      <div class="first">
+        <button onclick="appendValue('+')">+</button>
+        <button onclick="appendValue('1')">1</button>
+        <button onclick="appendValue('2')">2</button>
+        <button onclick="appendValue('3')">3</button>
+        <button onclick="appendValue('4')">4</button>
+        <button onclick="appendValue('5')">5</button>
+        <button onclick="appendValue('6')">6</button>
+        <button onclick="appendValue('7')">7</button>
+        <button onclick="appendValue('8')">8</button>
+        <button onclick="appendValue('9')">9</button>
+        <button onclick="appendValue('0')">0</button>
+        <button onclick="appendValue('-')">-</button>
+        <button id="teng-btn" onclick="calculate()">=</button>
+        <button  id="c-btn" onclick="clearResult()" class="backspase">Backspace</button>
+        <button>Home</button>
+      </div>
+      <div class="second">
+        <button onclick="appendValue('  ')" class="tab">Tab</button>
+        <button onclick="appendValue('q')">Q</button>
+        <button onclick="appendValue('w')">W</button>
+        <button onclick="appendValue('e')">E</button>
+        <button onclick="appendValue('r')">R</button>
+        <button onclick="appendValue('t')">T</button>
+        <button onclick="appendValue('y')">Y</button>
+        <button onclick="appendValue('u')">U</button>
+        <button onclick="appendValue('i')">I</button>
+        <button onclick="appendValue('o')">O</button>
+        <button onclick="appendValue('p')">P</button>
+        <button onclick="appendValue('{')">{</button>
+        <button onclick="appendValue('}')">}</button>
+        <button onclick="appendValue('/')">/</button>
+        <button onclick="btns()">Pg Up</button>
+      </div>
+      <div class="third">
+        <button class="tab">CapsLk</button>
+        <button onclick="appendValue('a')">A</button>
+        <button onclick="appendValue('s')">S</button>
+        <button onclick="appendValue('d')">D</button>
+        <button onclick="appendValue('f')">F</button>
+        <button onclick="appendValue('g')">G</button>
+        <button onclick="appendValue('h')">H</button>
+        <button onclick="appendValue('j')">J</button>
+        <button onclick="appendValue('k')">K</button>
+        <button onclick="appendValue('l')">L</button>
+        <button onclick="appendValue(';')">;</button>
+        <button onclick="appendValue('*')">*</button>
+        <button  id="teng-btn" onclick="calculate()" class="tab">Enter</button>
+        <button onclick="btns()">PgDn</button>
+      </div>
+      <div class="next">
+        <button onclick="btns()" class="tab">Shift</button>
+        <button onclick="appendValue('z')">Z</button>
+        <button onclick="appendValue('x')">X</button>
+        <button onclick="appendValue('c')">C</button>
+        <button onclick="appendValue('v')">V</button>
+        <button onclick="appendValue('b')">B</button>
+        <button onclick="appendValue('n')">N</button>
+        <button onclick="appendValue('m')">M</button>
+        <button onclick="appendValue('<')"><</button>
+        <button onclick="appendValue('>')">></button>
+        <button onclick="appendValue('?')">?</button>
+        <button onclick="btns()" class="tab">Shift</button>
+        <button  onclick="btns()">|</button>
+        <button>End</button>
+      </div>
+      <div class="end">
+        <button onclick="btns()" class="sign">Ctrl</button>
+        <button onclick="btns()" class="sign">Fn</button>
+        <button  onclick="btns()" class="sign">Win</button>
+        <button  onclick="btns()" class="sign">Alt</button>
+        <button onclick="appendValue(' ')" class="space">Speace</button>
+        <button  onclick="btns()" class="sign">Alt</button>
+        <button  onclick="btns()" class="sign">Fn</button>
+        <button  onclick="btns()" class="sign">Ctrl</button>
+        <button  onclick="btns()" class="sign">-</button>
+        <button  onclick="btns()" class="sign">|</button>
+        <button  onclick="btns()" class="sign">-</button>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
